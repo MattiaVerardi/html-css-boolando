@@ -26,3 +26,18 @@ img {
     width: 100%;
 }
 
+.photo {
+    position: relative;
+}
+
+.heart {
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    font-size: 20px;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+padding: 9px 14px;
+}
+
