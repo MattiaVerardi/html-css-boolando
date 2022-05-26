@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+/* commons */
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* layout */
 .container {
     max-width: 1100px;
@@ -28,6 +33,7 @@ img {
 
 .photo {
     position: relative;
+    padding-bottom: 10px;
 }
 
 .heart {
@@ -41,3 +47,43 @@ img {
 padding: 9px 14px;
 }
 
+.box-heart:hover .heart {
+    color: #eb0037;
+    cursor: pointer;
+}
+
+.box-dr-sust {
+    position: absolute;
+    left: 0px;
+    bottom: 40px;
+}
+
+.dr {
+    font-size: 16px;
+    color: white;
+    background-color: #eb0037;
+    padding: 7px 10px;
+    font-weight: 700;
+}
+
+.sustainability {
+    font-size: 16px;
+    color: white;
+    background-color: #00875a;
+    padding: 7px 10px;
+    font-weight: 700;
+}
+
+.brand-price h3 {
+    text-transform: uppercase;
+}
+
+.brand-price h4 {
+    color: #ff0000;
+}
+
+.brand-price h4 span {
+    color: black;
+    text-decoration: line-through;
+    font-weight: 100;
+}
