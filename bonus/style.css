@@ -94,3 +94,6 @@ padding: 9px 14px;
     top: 0px;
 }
 
+.photo:hover .photo-b {
+    display: block;
+}
